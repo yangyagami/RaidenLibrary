@@ -3,10 +3,10 @@
 -------------
 # 安装
 在你的发行版安装glfw，之后在源代码目录
-``````````
+```
 mkdir build
 cd build
 cmake ..
 make
 ./Sandbox
-`````````
+```
