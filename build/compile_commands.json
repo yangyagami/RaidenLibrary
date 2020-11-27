@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/yangsiyu/Workspace/RaidenLibrary/build",
+  "command": "/usr/bin/cc  -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/core -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/external -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/renderer -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src  -o CMakeFiles/Sandbox.dir/main.c.o -c /home/yangsiyu/Workspace/RaidenLibrary/main.c",
+  "file": "/home/yangsiyu/Workspace/RaidenLibrary/main.c"
+},
+{
+  "directory": "/home/yangsiyu/Workspace/RaidenLibrary/build",
+  "command": "/usr/bin/cc  -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/core -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/external -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/renderer -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src  -o CMakeFiles/Sandbox.dir/RaidenLibrary/src/core/Matrix.c.o -c /home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/core/Matrix.c",
+  "file": "/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/core/Matrix.c"
+},
+{
+  "directory": "/home/yangsiyu/Workspace/RaidenLibrary/build",
+  "command": "/usr/bin/cc  -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/core -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/external -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/renderer -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src  -o CMakeFiles/Sandbox.dir/RaidenLibrary/src/core/Vec.c.o -c /home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/core/Vec.c",
+  "file": "/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/core/Vec.c"
+},
+{
+  "directory": "/home/yangsiyu/Workspace/RaidenLibrary/build",
+  "command": "/usr/bin/cc  -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/core -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/external -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/renderer -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src  -o CMakeFiles/Sandbox.dir/RaidenLibrary/src/core/Window.c.o -c /home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/core/Window.c",
+  "file": "/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/core/Window.c"
+},
+{
+  "directory": "/home/yangsiyu/Workspace/RaidenLibrary/build",
+  "command": "/usr/bin/cc  -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/core -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/external -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/renderer -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src  -o CMakeFiles/Sandbox.dir/RaidenLibrary/src/renderer/Renderer.c.o -c /home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/renderer/Renderer.c",
+  "file": "/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/renderer/Renderer.c"
+},
+{
+  "directory": "/home/yangsiyu/Workspace/RaidenLibrary/build",
+  "command": "/usr/bin/cc  -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/core -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/external -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/renderer -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src  -o CMakeFiles/Sandbox.dir/RaidenLibrary/src/renderer/Shader.c.o -c /home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/renderer/Shader.c",
+  "file": "/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/renderer/Shader.c"
+},
+{
+  "directory": "/home/yangsiyu/Workspace/RaidenLibrary/build",
+  "command": "/usr/bin/cc  -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/core -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/external -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/renderer -I/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src  -o CMakeFiles/Sandbox.dir/RaidenLibrary/src/external/glad.c.o -c /home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/external/glad.c",
+  "file": "/home/yangsiyu/Workspace/RaidenLibrary/RaidenLibrary/src/external/glad.c"
+}
+]

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../RaidenLibrary/src/RaidenLib.h
+renderer/Renderer.h
+../RaidenLibrary/src/renderer/Renderer.h
+core/Window.h
+../RaidenLibrary/src/core/Window.h
+
+../RaidenLibrary/src/core/Vec.h
+
+../RaidenLibrary/src/core/Window.h
+GLFW/glfw3.h
+-
+
+../RaidenLibrary/src/renderer/Renderer.h
+Vec.h
+../RaidenLibrary/src/renderer/Vec.h
+
+/home/yangsiyu/Workspace/RaidenLibrary/main.c
+RaidenLib.h
+/home/yangsiyu/Workspace/RaidenLibrary/RaidenLib.h
+stdio.h
+-
+
