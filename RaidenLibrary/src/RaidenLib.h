@@ -1,5 +1,6 @@
 #include "renderer/Renderer.h"
 #include "core/Window.h"
+#include "input/Input.h"
 
 int Raiden_initLibrary(int width, int height, const char *title) {
 	int v = 1;
