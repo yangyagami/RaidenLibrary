@@ -15,3 +15,7 @@ int Raiden_initLibrary(int width, int height, const char *title) {
 void Raiden_shutdown() {
 	Raiden_Renderer_shutdown();
 }
+
+float Raiden_getTime() {
+	return (float)glfwGetTime();
+}

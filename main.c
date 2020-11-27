@@ -11,7 +11,7 @@ int main() {
 	Vec4 color = Raiden_Vec_createVec4(0.5f, 0.5f, 0.5f, 1.0f);
 
 	while(Raiden_Window_run()) {
-		time = glfwGetTime();
+		time = Raiden_getTime();
 		dt = time - lastTime;
 		lastTime = time;
 

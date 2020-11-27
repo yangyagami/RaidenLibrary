@@ -1,6 +1,8 @@
 #include "Renderer.h"
 #include "Vec.h"
 #include "glad/glad.h"
+#include "Buffer.h"
+#include "VertexArray.h"
 #include <stdlib.h>
 #include "Shader.h"
 #include "Matrix.h"
@@ -58,22 +60,17 @@ void Raiden_Renderer_init() {
 	}
 
 	unsigned int vao, vbo, ibo;
-	glGenVertexArrays(1, &vao);
-	glBindVertexArray(vao);
+	vao = Raiden_VertexArray_createVertexArray();
+	Raiden_VertexArray_bindVertexArray(vao);
 
-	glGenBuffers(1, &vbo);
-	glBindBuffer(GL_ARRAY_BUFFER, vbo);
-	glBufferData(GL_ARRAY_BUFFER, sizeof(Vertex) * maxVertices, NULL, GL_DYNAMIC_DRAW);
+	vbo = Raiden_Buffer_createBuffer(GL_ARRAY_BUFFER, sizeof(Vertex) * maxVertices, NULL);
+	Raiden_Buffer_bindBuffer(GL_ARRAY_BUFFER, vbo);
 
-	glGenBuffers(1, &ibo);
-	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo);
-	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(unsigned int) * maxIndices, indices, GL_STATIC_DRAW);
+	ibo = Raiden_Buffer_createBuffer(GL_ELEMENT_ARRAY_BUFFER, sizeof(unsigned int) * maxIndices, indices);
+	Raiden_Buffer_bindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo);
 
-	glVertexAttribPointer(0, 4, GL_FLOAT, GL_FALSE, 8 * sizeof(float), NULL);
-	glEnableVertexAttribArray(0);
-	
-	glVertexAttribPointer(1, 4, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void *)(4 * sizeof(float)));
-	glEnableVertexAttribArray(1);
+	Raiden_VertexArray_setLayout(0, 4, sizeof(float) * 8, NULL);
+	Raiden_VertexArray_setLayout(1, 4, sizeof(float) * 8, (void *)(sizeof(float) * 4));
 
 	program = Raiden_Shader_createProgram(vertexShaderSrc, fragmentShaderSrc);
 
