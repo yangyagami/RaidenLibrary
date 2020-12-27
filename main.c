@@ -1,5 +1,6 @@
 #include "RaidenLib.h"
 #include <stdio.h>
+
 int main() {
 	if (!Raiden_initLibrary(800, 600, "hello")) {
 		printf("init failed\n");
@@ -9,6 +10,8 @@ int main() {
 	float time = 0.0f;
 	float dt = 0.0f;
 	Vec4 color = Raiden_Vec_createVec4(0.5f, 0.5f, 0.5f, 1.0f);
+	
+	Texture texture = Raiden_Texture_createTexture("res/test.jpg");
 
 	while(Raiden_Window_run()) {
 		time = Raiden_getTime();
@@ -19,15 +22,11 @@ int main() {
 		Raiden_Renderer_begin();
 		{
 			Raiden_Renderer_clearColor(&color);
-
-			for (int i = 0; i < 100; i++) {
-				for (int j = 0; j < 100; j++) {
-					Vec2 pos = { i * 31.0f, j * 31.0f };
-					Vec2 size = { 30.0f, 30.0f };
-					Vec4 color = {1.0f, 0.8f, 1.0f, 1.0f};
-					Raiden_Renderer_drawRect(&pos, &size, &color);
-				}
-			}
+			Vec2 pos = {400.0f, 300.0f};
+			Vec2 size = {100.0f, 200.0f};
+			Vec4 color = {1.0f, 0.0f, 1.0f, 1.0f};
+			Raiden_Renderer_drawTexture(&texture, &pos, &size, &color);
+	
 		}
 		Raiden_Renderer_end();
 

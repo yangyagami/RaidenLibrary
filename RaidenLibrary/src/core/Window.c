@@ -21,6 +21,8 @@ int Raiden_Window_init(int width, int height, const char *title) {
 
 	gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
 
+	glfwSwapInterval(1);
+
 	return v;
 }
 
@@ -31,6 +33,14 @@ int Raiden_Window_run() {
 void Raiden_Window_update() {
 	glfwSwapBuffers(Raiden_window.glfwWindow);
 	glfwPollEvents();
+}
+
+int getWinWidth() {
+	return Raiden_window.width;
+}
+
+int getWinHeight() {
+	return Raiden_window.height;
 }
 
 void Raiden_Window_terminate() {

@@ -1,0 +1,62 @@
+[
+{
+  "directory": "C:/Users/杨思宇/source/repos/RaidenLibrary/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe -I../RaidenLibrary/src/core -I../RaidenLibrary/src/external -I../RaidenLibrary/src/renderer -I../RaidenLibrary/src/input -I../RaidenLibrary/src -g -o CMakeFiles\\Sandbox.dir\\main.c.obj -c C:\\Users\\杨思宇\\source\\repos\\RaidenLibrary\\main.c",
+  "file": "C:/Users/杨思宇/source/repos/RaidenLibrary/main.c"
+},
+{
+  "directory": "C:/Users/杨思宇/source/repos/RaidenLibrary/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe -I../RaidenLibrary/src/core -I../RaidenLibrary/src/external -I../RaidenLibrary/src/renderer -I../RaidenLibrary/src/input -I../RaidenLibrary/src -g -o CMakeFiles\\Sandbox.dir\\RaidenLibrary\\src\\external\\stb_image\\stb_image.c.obj -c C:\\Users\\杨思宇\\source\\repos\\RaidenLibrary\\RaidenLibrary\\src\\external\\stb_image\\stb_image.c",
+  "file": "C:/Users/杨思宇/source/repos/RaidenLibrary/RaidenLibrary/src/external/stb_image/stb_image.c"
+},
+{
+  "directory": "C:/Users/杨思宇/source/repos/RaidenLibrary/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe -I../RaidenLibrary/src/core -I../RaidenLibrary/src/external -I../RaidenLibrary/src/renderer -I../RaidenLibrary/src/input -I../RaidenLibrary/src -g -o CMakeFiles\\Sandbox.dir\\RaidenLibrary\\src\\core\\Matrix.c.obj -c C:\\Users\\杨思宇\\source\\repos\\RaidenLibrary\\RaidenLibrary\\src\\core\\Matrix.c",
+  "file": "C:/Users/杨思宇/source/repos/RaidenLibrary/RaidenLibrary/src/core/Matrix.c"
+},
+{
+  "directory": "C:/Users/杨思宇/source/repos/RaidenLibrary/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe -I../RaidenLibrary/src/core -I../RaidenLibrary/src/external -I../RaidenLibrary/src/renderer -I../RaidenLibrary/src/input -I../RaidenLibrary/src -g -o CMakeFiles\\Sandbox.dir\\RaidenLibrary\\src\\core\\Vec.c.obj -c C:\\Users\\杨思宇\\source\\repos\\RaidenLibrary\\RaidenLibrary\\src\\core\\Vec.c",
+  "file": "C:/Users/杨思宇/source/repos/RaidenLibrary/RaidenLibrary/src/core/Vec.c"
+},
+{
+  "directory": "C:/Users/杨思宇/source/repos/RaidenLibrary/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe -I../RaidenLibrary/src/core -I../RaidenLibrary/src/external -I../RaidenLibrary/src/renderer -I../RaidenLibrary/src/input -I../RaidenLibrary/src -g -o CMakeFiles\\Sandbox.dir\\RaidenLibrary\\src\\core\\Window.c.obj -c C:\\Users\\杨思宇\\source\\repos\\RaidenLibrary\\RaidenLibrary\\src\\core\\Window.c",
+  "file": "C:/Users/杨思宇/source/repos/RaidenLibrary/RaidenLibrary/src/core/Window.c"
+},
+{
+  "directory": "C:/Users/杨思宇/source/repos/RaidenLibrary/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe -I../RaidenLibrary/src/core -I../RaidenLibrary/src/external -I../RaidenLibrary/src/renderer -I../RaidenLibrary/src/input -I../RaidenLibrary/src -g -o CMakeFiles\\Sandbox.dir\\RaidenLibrary\\src\\renderer\\Buffer.c.obj -c C:\\Users\\杨思宇\\source\\repos\\RaidenLibrary\\RaidenLibrary\\src\\renderer\\Buffer.c",
+  "file": "C:/Users/杨思宇/source/repos/RaidenLibrary/RaidenLibrary/src/renderer/Buffer.c"
+},
+{
+  "directory": "C:/Users/杨思宇/source/repos/RaidenLibrary/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe -I../RaidenLibrary/src/core -I../RaidenLibrary/src/external -I../RaidenLibrary/src/renderer -I../RaidenLibrary/src/input -I../RaidenLibrary/src -g -o CMakeFiles\\Sandbox.dir\\RaidenLibrary\\src\\renderer\\Renderer.c.obj -c C:\\Users\\杨思宇\\source\\repos\\RaidenLibrary\\RaidenLibrary\\src\\renderer\\Renderer.c",
+  "file": "C:/Users/杨思宇/source/repos/RaidenLibrary/RaidenLibrary/src/renderer/Renderer.c"
+},
+{
+  "directory": "C:/Users/杨思宇/source/repos/RaidenLibrary/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe -I../RaidenLibrary/src/core -I../RaidenLibrary/src/external -I../RaidenLibrary/src/renderer -I../RaidenLibrary/src/input -I../RaidenLibrary/src -g -o CMakeFiles\\Sandbox.dir\\RaidenLibrary\\src\\renderer\\Shader.c.obj -c C:\\Users\\杨思宇\\source\\repos\\RaidenLibrary\\RaidenLibrary\\src\\renderer\\Shader.c",
+  "file": "C:/Users/杨思宇/source/repos/RaidenLibrary/RaidenLibrary/src/renderer/Shader.c"
+},
+{
+  "directory": "C:/Users/杨思宇/source/repos/RaidenLibrary/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe -I../RaidenLibrary/src/core -I../RaidenLibrary/src/external -I../RaidenLibrary/src/renderer -I../RaidenLibrary/src/input -I../RaidenLibrary/src -g -o CMakeFiles\\Sandbox.dir\\RaidenLibrary\\src\\renderer\\Texture.c.obj -c C:\\Users\\杨思宇\\source\\repos\\RaidenLibrary\\RaidenLibrary\\src\\renderer\\Texture.c",
+  "file": "C:/Users/杨思宇/source/repos/RaidenLibrary/RaidenLibrary/src/renderer/Texture.c"
+},
+{
+  "directory": "C:/Users/杨思宇/source/repos/RaidenLibrary/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe -I../RaidenLibrary/src/core -I../RaidenLibrary/src/external -I../RaidenLibrary/src/renderer -I../RaidenLibrary/src/input -I../RaidenLibrary/src -g -o CMakeFiles\\Sandbox.dir\\RaidenLibrary\\src\\renderer\\VertexArray.c.obj -c C:\\Users\\杨思宇\\source\\repos\\RaidenLibrary\\RaidenLibrary\\src\\renderer\\VertexArray.c",
+  "file": "C:/Users/杨思宇/source/repos/RaidenLibrary/RaidenLibrary/src/renderer/VertexArray.c"
+},
+{
+  "directory": "C:/Users/杨思宇/source/repos/RaidenLibrary/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe -I../RaidenLibrary/src/core -I../RaidenLibrary/src/external -I../RaidenLibrary/src/renderer -I../RaidenLibrary/src/input -I../RaidenLibrary/src -g -o CMakeFiles\\Sandbox.dir\\RaidenLibrary\\src\\external\\glad.c.obj -c C:\\Users\\杨思宇\\source\\repos\\RaidenLibrary\\RaidenLibrary\\src\\external\\glad.c",
+  "file": "C:/Users/杨思宇/source/repos/RaidenLibrary/RaidenLibrary/src/external/glad.c"
+},
+{
+  "directory": "C:/Users/杨思宇/source/repos/RaidenLibrary/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe -I../RaidenLibrary/src/core -I../RaidenLibrary/src/external -I../RaidenLibrary/src/renderer -I../RaidenLibrary/src/input -I../RaidenLibrary/src -g -o CMakeFiles\\Sandbox.dir\\RaidenLibrary\\src\\input\\Input.c.obj -c C:\\Users\\杨思宇\\source\\repos\\RaidenLibrary\\RaidenLibrary\\src\\input\\Input.c",
+  "file": "C:/Users/杨思宇/source/repos/RaidenLibrary/RaidenLibrary/src/input/Input.c"
+}
+]

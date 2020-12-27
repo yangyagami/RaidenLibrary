@@ -1,0 +1,14 @@
+# ninja log v5
+13	2530	6305981556822670	CMakeFiles/Sandbox.dir/RaidenLibrary/src/core/Matrix.c.obj	2c8ee7c3edbca228
+2520	3383	6305981564750647	CMakeFiles/Sandbox.dir/RaidenLibrary/src/renderer/Buffer.c.obj	a00969e0d6f08ed2
+2589	3178	6305981561345251	CMakeFiles/Sandbox.dir/RaidenLibrary/src/core/Vec.c.obj	e6467cea6b00ef30
+4	314	6306558308244771	CMakeFiles/Sandbox.dir/main.c.obj	a88ba5469e9d7cc9
+3450	4115	6305981572396505	CMakeFiles/Sandbox.dir/RaidenLibrary/src/renderer/VertexArray.c.obj	2aed9bb6157f639a
+22	5197	6306512638014222	CMakeFiles/Sandbox.dir/RaidenLibrary/src/external/stb_image/stb_image.c.obj	2815652b11e64544
+3	619	6306657020593163	CMakeFiles/Sandbox.dir/RaidenLibrary/src/renderer/Renderer.c.obj	d37d91e1754b7933
+15	1086	6306555113038280	CMakeFiles/Sandbox.dir/RaidenLibrary/src/core/Window.c.obj	5a00d86e9125319f
+3386	4119	6305981572083970	CMakeFiles/Sandbox.dir/RaidenLibrary/src/renderer/Shader.c.obj	34bf27a78f8115a4
+24	1234	6306555114634542	CMakeFiles/Sandbox.dir/RaidenLibrary/src/input/Input.c.obj	5112b68db4076d6c
+3829	5998	6305981591572164	CMakeFiles/Sandbox.dir/RaidenLibrary/src/external/glad.c.obj	b4055b74bfcc8dd9
+620	1341	6306657025696581	Sandbox.exe	1fb51e27aa407ec5
+8	471	6306544702829919	CMakeFiles/Sandbox.dir/RaidenLibrary/src/renderer/Texture.c.obj	877fb7d8d46e4b40

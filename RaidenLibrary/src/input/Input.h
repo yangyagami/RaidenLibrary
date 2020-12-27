@@ -56,7 +56,7 @@
 #define RAIDEN_KEY_GRAVE_ACCENT   GLFW_KEY_GRAVE_ACCENT       /* ` */
 #define RAIDEN_KEY_WORLD_1        GLFW_KEY_WORLD_1            /* non-US #1 */
 #define RAIDEN_KEY_WORLD_2        GLFW_KEY_WORLD_2            /* non-US #2 */
-        RAIDEN                    
+                    
 #define RAIDEN_KEY_ESCAPE         GLFW_KEY_ESCAPE            
 #define RAIDEN_KEY_ENTER          GLFW_KEY_ENTER             
 #define RAIDEN_KEY_TAB            GLFW_KEY_TAB               
